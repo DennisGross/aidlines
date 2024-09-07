@@ -2835,7 +2835,7 @@ const data = [
 		"phone_pref": "+213",
         "flag": "🇩🇿",
         "ambulanceNumber": "14",
-        "ambulanceNotes": "Dial 107 in Buenos Aires, Córdoba, Tierra del Fuego, and Jujuy to reach the same government ambulance service directly.",
+        "ambulanceNotes": "",
         "policeNumber": "1548",
         "policeNotes": "Gendarme – 1055",
         "firefighterNumber": "14",
