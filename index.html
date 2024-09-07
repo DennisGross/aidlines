@@ -133,7 +133,7 @@
                 document.getElementById('infoCard').style.display = 'block';
 
                 // Save to localStorage
-                localStorage.setItem('lastCountry', countryInput);
+                //localStorage.setItem('lastCountry', countryInput);
             } else {
                 alert('Country not found. Please try again.');
             }
@@ -141,12 +141,12 @@
 
         // Retrieve and display the last country on page load
         window.onload = function() {
-            const lastCountry = localStorage.getItem('lastCountry');
+            //const lastCountry = localStorage.getItem('lastCountry');
 
-            if (lastCountry) {
-                document.getElementById('countrySelect').value = lastCountry;
-                fetchEmergencyData();
-            }
+            //if (lastCountry) {
+            //    document.getElementById('countrySelect').value = lastCountry;
+            //    fetchEmergencyData();
+            //}
         };
     </script>
 </body>
