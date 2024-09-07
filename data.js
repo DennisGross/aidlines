@@ -4923,7 +4923,59 @@ const data = [
                 "phone": "+4915735998143",
                 "url": "https://krisenchat.de/en/ukraine",
                 "notes": "Ukrainian support line."
-            	}
+            	},
+                {
+                    "name": "Telefonseelsorge",
+                    "phone": "0800.1110111",
+                    "url": "https://www.telefonseelsorge.de/",
+                    "notes": "Or 0800.1110222."
+                },
+                {
+                    "name": "Nummer gegen Kummer",
+                    "phone": "116 111",
+                    "url": "https://www.nummergegenkummer.de/",
+                    "notes": "Phone (for children and youth). Phone (for parents): 0800 111 0 550 (free of charge)."
+                },
+                {
+                    "name": "Hilfetelefon",
+                    "phone": "116 016",
+                    "url": "https://www.nummergegenkummer.de/",
+                    "notes": "Gewalt gegen Frauen (Violence Against Women Helpline)."
+                },
+                {
+                    "name": "Sucht und Drogen Hotline (Addiction and Drug Helpline)",
+                    "phone": "01806313031",
+                    "url": "https://www.sucht-und-drogen-hotline.de/",
+                    "notes": "This helpline provides support for individuals struggling with substance abuse or addiction and offers advice on treatment and recovery options."
+                },
+                {
+                    "name": "Weisser Ring (Victim Support Service)",
+                    "phone": "116006",
+                    "url": "https://weisser-ring.de/",
+                    "email": "",
+                    "notes": "7am to 10 pm. Weisser Ring helps victims of crime and violence, providing emotional support, legal advice, and assistance with dealing with the aftermath of crimes."
+                },
+                {
+                    "name": "Deutsche Aidshilfe",
+                    "phone": "0180 33 19411",
+                    "url": "https://www.aidshilfe.de/",
+                    "email": "",
+                    "notes": "You can reach us Monday to Friday from 9 a.m. to 9 p.m. and Saturday and Sunday from 12 p.m. to 2 p.m. You can remain anonymous when you call."
+                },
+                {
+                    "name": "Muslimisches Seelsorgetelefon (Muslim Pastoral Care Telephone)",
+                    "phone": "030 443 509 821",
+                    "url": "https://www.mutes.de/",
+                    "email": "",
+                    "notes": " Provides confidential and culturally sensitive pastoral care for Muslims in crisis, offering support in multiple languages."
+                },
+                {
+                    "name": "TransMann E.V.",
+                    "phone": "01803 – 851999",
+                    "url": "https://transmann.de",
+                    "email": "",
+                    "notes": "The information telephone is open from Monday to Sunday from 6:00 p.m. to 9:00 p.m. and is manned by several people. We are not professionals (therapists, doctors, etc.), but “just” trans men. But that is precisely our strength."
+                }
             
         ]
     },
