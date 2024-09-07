@@ -5124,7 +5124,42 @@ const data = [
         "firefighterNumber": "911",
         "firefighterNotes": "",
         "helplines": [
-        	
+        	{
+                "name": "National 24 Hr Violence against Women Hotline",
+                "phone": "800 108 4053",
+                "url": "",
+                "notes": ""
+            },
+            {
+                "name": "HabLalo Violence Helpline",
+                "phone": "01 800 Hablalo (422 5256)",
+                "url": "",
+                "notes": ""
+            },
+            {
+                "name": "ADIVAC (Association for the support of victims of rape)",
+                "phone": "Mexico City: 5682 7969 or 5547 8639; León, Guanajuato: (477) 2511847",
+                "url": "",
+                "notes": ""
+            },
+            {
+                "name": "HabLalo Violence Helpline",
+                "phone": "988",
+                "url": "",
+                "notes": "At the 988 Suicide Prevention and Crisis Line, we understand that life's challenges can be difficult at times. Whether you're dealing with mental health issues, emotional distress, concerns about alcohol or drug use, or just need someone to talk to, our friendly counselors are here to help. You are not alone."
+            },
+            {
+                "name": "Línea de la Vida",
+                "phone": "8009112000",
+                "url": "",
+                "notes": "Free of charge, available 24/7. Provides support for individuals facing issues with substance abuse and mental health, offering guidance, prevention resources, and treatment referrals."
+            },
+            {
+                "name": "Teléfono de la Mujer",
+                "phone": "800 108 40 53",
+                "url": "",
+                "notes": "A helpline that offers confidential support to women dealing with domestic violence, sexual assault, and gender-based violence. It provides legal advice, emotional support, and shelter referrals."
+            }
             
         ]
     },
@@ -5139,12 +5174,43 @@ const data = [
         "firefighterNumber": "911",
         "firefighterNotes": "311 - Non-emergency",
         "helplines": [
-        	{
+        	    {
                 "name": "Suicide Prevention Lifeline",
                 "phone": "988",
-                "url": "",
+                "url": "https://988lifeline.org/",
                 "notes": "Also texting"
-            	}	
+            	},
+                {
+                    "name": "Crisis Text Line",
+                    "phone": "741741",
+                    "url": "https://www.crisistextline.org/",
+                    "notes": "Text HOME to 741741 to connect with a volunteer Crisis Counselor"
+                },
+                {
+                        "name": "The Network/La Red",
+                        "phone": "617-742-4911",
+                        "url": "",
+                        "notes": "Or 800-832-1901. The Network/La Red is a survivor-led, social justice organization that works to end partner abuse in lesbian, gay, bisexual, transgender, kink, polyamorous, and queer communities."
+                },
+                {
+                    "name": "National Domestic Violence Hotline",
+                    "phone": "1.800.799.SAFE (7233)",
+                    "url": "https://www.crisistextline.org/",
+                    "notes": "Or text START to 88788. Provides confidential support to individuals experiencing domestic violence, including advice, safety planning, and connections to local resources."
+                    },
+                    {
+                        "name": "RAINN (Rape, Abuse & Incest National Network)",
+                        "phone": "800.656.HOPE (4673)",
+                        "url": "https://rainn.org/",
+                        "notes": "National Sexual Assault Hotline. Free. Confidential. 24/7."
+                        },
+                        {
+                            "name": "National Special Victims (NSV)",
+                            "phone": "888 805 0122",
+                            "notes": "Providing resources and support to victims of crime who may not otherwise receive services."
+                            }
+                           
+                       
         ]
     }
     ,
