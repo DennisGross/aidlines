@@ -1,0 +1,248 @@
+/* Base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2E3440; /* Dark Slate Gray */
+    color: #2E3440; /* Very Dark Gray */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #3B4252; /* Charcoal */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Header styles for logo and title */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #ECEFF4; /* Light Gray */
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 12px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #ECEFF4; /* Light Gray */
+    color: #2E3440; /* Dark Slate Gray */
+}
+
+input[type="text"]:focus {
+    outline: 3px solid #5E81AC; /* Focus outline color */
+}
+
+button {
+    padding: 12px;
+    border: none;
+    background-color: #4C566A; /* Muted Teal */
+    color: #ECEFF4; /* Light Gray */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover,
+button:focus {
+    background-color: #3B4252; /* Darker Teal */
+    outline: 3px solid #5E81AC; /* Focus outline color */
+}
+
+.card {
+    padding: 20px;
+    background-color: #ECEFF4; /* Light Gray */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #2E3440; /* Very Dark Gray */
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 1.6rem;
+    color: #2E3440; /* Dark Slate Gray */
+}
+
+.emergency-section {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #D8DEE9; /* Very Light Gray */
+    border-radius: 8px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.emergency-section h3 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #2E3440; /* Very Dark Gray */
+}
+
+.emergency-number {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #2E3440; /* Very Dark Gray */
+}
+
+.emergency-notes {
+    font-size: 1rem;
+    color: #4C566A; /* Cool Gray */
+    margin-top: 5px;
+}
+
+/* Support Section */
+.support-section {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #4C566A; /* Cool Gray */
+}
+
+.support-section p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #2E3440; /* Very Dark Gray */
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.support-button,
+.feedback-button {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ECEFF4; /* Light Gray */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.support-button {
+    background-color: #FF6B6B; /* Soft Coral */
+}
+
+.support-button:hover {
+    background-color: #E63946; /* Deep Coral */
+}
+
+.feedback-button {
+    background-color: #62BEC1; /* Light Cyan */
+}
+
+.feedback-button:hover {
+    background-color: #4C566A; /* Muted Teal */
+}
+
+.support-button:focus,
+.feedback-button:focus {
+    outline: 3px solid #5E81AC; /* Focus outline color */
+}
+
+
+.helpline {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #D8DEE9; /* Very Light Gray */
+    border-radius: 8px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.helpline h4 {
+    margin: 0 0 5px;
+    color: #2E3440; /* Very Dark Gray */
+}
+
+.helpline p {
+    margin: 5px 0;
+    color: #4C566A; /* Cool Gray */
+}
+
+.phone-link {
+    text-decoration: none;
+}
+
+.phone-link:hover {
+    text-decoration: underline;
+}
+
+
+/* Responsive design for larger screens */
+@media (min-width: 600px) {
+    .search-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    input[type="text"] {
+        width: 70%;
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+
+    button {
+        width: 30%;
+    }
+}
+/* Styling for the select box */
+select#countrySelect {
+    width: 100%; /* Make the select box take the full width */
+    padding: 12px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #ECEFF4; /* Light Gray */
+    color: #2E3440; /* Dark Slate Gray */
+    appearance: none; /* Remove default arrow for better custom styling */
+    -webkit-appearance: none; /* For Safari */
+    -moz-appearance: none; /* For Firefox */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns%3D%27http%3A//www.w3.org/2000/svg%27 viewBox%3D%270 0 4 5%27%3E%3Cpath fill%3D%27%234C566A%27 d%3D%27M2 0L0 2h4zM0 3l2 2 2-2z%27/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 10px;
+}
+
+select#countrySelect:focus {
+    outline: 3px solid #5E81AC; /* Focus outline color */
+}
+
+/* Ensure full-width on larger screens as well */
+@media (min-width: 600px) {
+    select#countrySelect {
+        width: 100%; /* Ensure it still takes the full width on larger screens */
+        margin-right: 0;
+    }
+}

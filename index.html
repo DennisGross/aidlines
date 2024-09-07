@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Info</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="logo.png" alt="Emergency Info Logo" class="logo">
+            <h1>Global Emergency Numbers</h1>
+        </div>
+        <div class="search-container">
+            <select id="countrySelect" aria-label="Country name" onchange="fetchEmergencyData()">
+                <option value="" disabled selected>Select a country</option>
+            </select>
+        </div>
+        <div id="infoCard" class="card" style="display: none;">
+            <h2 id="countryName"></h2>
+            <p>CAUTION: We are not an official service and cannot guarantee the accuracy of the listed phone numbers.</p>
+            <div class="emergency-section">
+                <h3>🚑 Ambulance</h3>
+                <p class="emergency-number" id="ambulanceNumber"></p>
+                <p class="emergency-notes" id="ambulanceNotes"></p>
+            </div>
+            <div class="emergency-section">
+                <h3>🚓 Police</h3>
+                <p class="emergency-number" id="policeNumber"></p>
+                <p class="emergency-notes" id="policeNotes"></p>
+            </div>
+            <div class="emergency-section">
+                <h3>🚒 Firefighter</h3>
+                <p class="emergency-number" id="firefighterNumber"></p>
+                <p class="emergency-notes" id="firefighterNotes"></p>
+            </div>
+            <!-- Helplines Section -->
+            <div id="helplines">
+                <!-- Helplines will be dynamically inserted here -->
+            </div>
+            <!-- Support Us and Feedback Section -->
+            <div class="support-section">
+                <p>If you find outdated information or wish to support us,</p>
+                <div class="button-group">
+                    <button class="feedback-button"  onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfAh_0JYZ19rqJJX4-2mxXLM0Wm3GN3n8JvgGXk3Mw9YtINmw/viewform?usp=sf_link')">✉️ Feedback</button>
+                    <button class="support-button" onclick="window.open('https://www.paypal.com/donate/?hosted_button_id=MLXQUDGXTFJP2')">💖<br />Support Us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script>
+        // Populate the select box with country names in alphabetical order
+        const countrySelect = document.getElementById('countrySelect');
+        const sortedCountries = data.sort((a, b) => a.country.localeCompare(b.country));
+        sortedCountries.forEach(item => {
+            const option = document.createElement('option');
+            option.value = item.country.toLowerCase(); // Store the country name in lowercase for comparison
+            option.textContent = item.country;
+            countrySelect.appendChild(option);
+        });
+
+        function fetchEmergencyData() {
+            const countryInput = countrySelect.value;
+            const countryData = data.find(item => item.country.toLowerCase() === countryInput);
+
+            if (countryData) {
+                document.getElementById('countryName').textContent = `${countryData.flag} ${countryData.country} ${countryData.phone_pref}`;
+
+            
+
+                // Check and set the ambulance number
+                if (countryData.ambulanceNumber) {
+                    const ambulancePhoneLink = `tel:${countryData.ambulanceNumber.replace(/\D+/g, '')}`;
+                    document.getElementById('ambulanceNumber').innerHTML = `<a href="${ambulancePhoneLink}" class="phone-link">${countryData.ambulanceNumber}</a>`;
+                    document.getElementById('ambulanceNotes').textContent = countryData.ambulanceNotes || '';
+                } else {
+                    document.getElementById('ambulanceNumber').textContent = '';
+                    document.getElementById('ambulanceNotes').textContent = '';
+                }
+
+                // Check and set the police number
+                if (countryData.policeNumber) {
+                    const policePhoneLink = `tel:${countryData.policeNumber.replace(/\D+/g, '')}`;
+                    document.getElementById('policeNumber').innerHTML = `<a href="${policePhoneLink}" class="phone-link">${countryData.policeNumber}</a>`;
+                    document.getElementById('policeNotes').textContent = countryData.policeNotes || '';
+                } else {
+                    document.getElementById('policeNumber').textContent = '';
+                    document.getElementById('policeNotes').textContent = '';
+                }
+
+                // Check and set the firefighter number
+                if (countryData.firefighterNumber) {
+                    const firefighterPhoneLink = `tel:${countryData.firefighterNumber.replace(/\D+/g, '')}`;
+                    document.getElementById('firefighterNumber').innerHTML = `<a href="${firefighterPhoneLink}" class="phone-link">${countryData.firefighterNumber}</a>`;
+                    document.getElementById('firefighterNotes').textContent = countryData.firefighterNotes || '';
+                } else {
+                    document.getElementById('firefighterNumber').textContent = '';
+                    document.getElementById('firefighterNotes').textContent = '';
+                }
+
+                // Clear previous helplines
+                const helplinesSection = document.getElementById('helplines');
+                helplinesSection.innerHTML = '';
+
+                // Add helplines dynamically
+                if (countryData.helplines && countryData.helplines.length > 0) {
+                    countryData.helplines.sort((a, b) => a.name.localeCompare(b.name));
+                    countryData.helplines.forEach(helpline => {
+                        const helplineDiv = document.createElement('div');
+                        helplineDiv.classList.add('helpline');
+
+                        let helplineContent = `<h4>📞 ${helpline.name}</h4>`;
+                        
+                        if (helpline.phone) {
+                            const phoneLink = `tel:${helpline.phone.replace(/\s+/g, '')}`; // Remove spaces for the tel link
+                            helplineContent += `<p class="emergency-number"><a href="${phoneLink}" class="phone-link">${helpline.phone}</a></p>`;
+                        }
+                        if (helpline.text) {
+                            helplineContent += `<p><strong>Text:</strong> ${helpline.text}</p>`;
+                        }
+                        if (helpline.notes) {
+                            helplineContent += `<p><em>${helpline.notes}</em></p>`;
+                        }
+
+                        helplineDiv.innerHTML = helplineContent;
+                        helplinesSection.appendChild(helplineDiv);
+                    });
+                }
+
+                document.getElementById('infoCard').style.display = 'block';
+
+                // Save to localStorage
+                localStorage.setItem('lastCountry', countryInput);
+            } else {
+                alert('Country not found. Please try again.');
+            }
+        }
+
+        // Retrieve and display the last country on page load
+        window.onload = function() {
+            const lastCountry = localStorage.getItem('lastCountry');
+
+            if (lastCountry) {
+                document.getElementById('countrySelect').value = lastCountry;
+                fetchEmergencyData();
+            }
+        };
+    </script>
+</body>
+</html>
