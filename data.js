@@ -5504,7 +5504,59 @@ const data = [
         "firefighterNumber": "999",
         "firefighterNotes": "112",
         "helplines": [
-            	
+            {
+                "name": "wildlifeaid",
+                "phone": "01372 360404",
+                "url": "https://www.wildlifeaid.org.uk/emergency",
+                "notes": "AIf you have found a sick, injured or orphaned wild animal, please visit our Helping Wildlife hub. If you need further advice, please call the Emergency Helpline."
+            	},
+                {
+                    "name": "Frank (National Drug Helpline)",
+                    "phone": "0300 1236600",
+                    "url": "https://www.talktofrank.com/",
+                    "notes": "Honest information about drugs. If you or someone else needs urgent help after taking drugs or drinking, call 999 for an ambulance. Tell the crew everything you know. It could save their life."
+                    },
+                    {
+                        "name": "England and Wales: Rape Crisis",
+                        "phone": "0808 500 22 22",
+                        "notes": "National Sexual Assault Helplines."
+                    }
+                    ,
+                    {
+                        "name": "All UK: LGBT+ Sexual Violence Support Service (Galop)",
+                        "phone": "0800 999 5428",
+                        "notes": "National Sexual Assault Helplines."
+                        }
+                        ,
+                        {
+                            "name": "All UK: Aanchal Helpline for support in English, Hindi, Punjabi, Urdu, Gujarati, Tamil and Bengali.",
+                            "phone": "0800 0124 924",
+                            "notes": "National Sexual Assault Helplines."
+                        }
+                        ,
+                        {
+                            "name": "All UK: Hourglass: support for older people",
+                            "phone": "0808 808 8141",
+                            "notes": "National Sexual Assault Helplines."
+                        }
+                        ,
+                        {
+                            "name": "All UK: Revenge Porn Helpline",
+                            "phone": "0345 6000 459",
+                            "notes": "National Sexual Assault Helplines."
+                        }
+                        ,
+                        {
+                            "name": "All UK: Mankind Initiative (for male victims of DV)",
+                            "phone": "01823 334 244",
+                            "notes": "National Domestic Violence Helpline."
+                        }
+                        ,
+                        {
+                            "name": "All UK: Hourglass: support for older people",
+                            "phone": "0808 808 8141",
+                            "notes": "National Domestic Violence Helpline."
+                        }
         ]
     },
     {
