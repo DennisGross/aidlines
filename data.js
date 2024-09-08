@@ -5024,9 +5024,89 @@ const data = [
         "firefighterNumber": "112",
         "firefighterNotes": "",
         "helplines": [
-        	
-            	
-            
+        	{
+                "name": "Sexual assault and Rape hotline",
+                "phone": "0800 0188",
+                "url": "",
+                "notes": "The Sexual Assault Center (SAC) Amsterdam-Amstelland is available day and night to provide help for anyone who has been sexually assaulted or raped in the previous seven days."
+            	}
+            ,
+            {
+                "name": "Break the silence Helpline",
+                "phone": "088 746 0083",
+                "url": "",
+                "notes": "Or 0900 9999 001."
+            	}
+                ,
+                {
+                    "name": "Fier Helpline",
+                    "phone": "088 20 80 000",
+                    "url": "",
+                    "notes": "Do you feel unsafe? Are you being pressured or threatened? Is someone crossing your boundaries? Or has something happened in the past that is still bothering you? Then Fier is there for you. Our help is available to everyone in the Netherlands."
+                    }
+                    ,
+                    {
+                        "name": "no emergency calls",
+                        "phone": "0900 8844",
+                        "url": "",
+                        "notes": "If you need help, but not urgently, you can call the police using the national number."
+                        }
+                        ,
+                        {
+                            "name": "no emergency calls",
+                            "phone": "0900 1515",
+                            "url": "",
+                            "notes": "If the health issue is urgent but not life-threatening, you should either contact your doctor (GP) or find your closest out-of-hours medical clinic (huisartsenpost). If the doctor decides you need to go to emergency, they will then call the hospital to let them know you’re coming and what treatment you may need. For information on all medical services, there’s a national line available at 0900 1515. This operates 24/7."
+                            }
+                            ,
+                            {
+                                "name": "Suicide prevention Netherlands",
+                                "phone": "0900 0113",
+                                "url": "",
+                                "notes": ""
+                                }
+                                ,
+                                {
+                                    "name": "Alcoholics Anonymous",
+                                    "phone": "020 625 6057",
+                                    "url": "https://aa-netherlands.org/",
+                                    "notes": "It is the largest organization to help with alcohol abuse."
+                                    }
+                                    ,
+                                    {
+                                        "name": "Veiligthuis national domestic violence, child abuse, and elderly abuse hotline",
+                                        "phone": "0800 2000",
+                                        "url": "https://www.ikvermoedhuiselijkgeweld.nl/",
+                                        "notes": "available 24/7."
+                                        }
+                                        ,
+                                        {
+                                            "name": "Missing children",
+                                            "phone": "116 000",
+                                            "url": "https://missingchildreneurope.eu/hotline-116-000/",
+                                            "notes": "If a child goes missing, Missing Children Europe is a helpline that provides information as well as support to parents. It operates in 10 European countries, and the helpline is open 24/7 at 116 000."
+                                            }
+                                            ,
+                                            {
+                                                "name": "Arosa",
+                                                "phone": "010 820 08 40",
+                                                "url": "https://www.arosa-zhz.nl/",
+                                                "notes": "It offers help to those who are victims of domestic or sexual violence."
+                                                }
+                                                ,
+                                                {
+                                                    "name": "Fraudehelpdesk",
+                                                    "phone": "088 786 73 72",
+                                                    "url": "https://www.fraudehelpdesk.nl/",
+                                                    "notes": "The Dutch national anti-fraud hotline."
+                                                    }
+                                                    ,
+                                                    {
+                                                        "name": "National Animal Ambulance",
+                                                        "phone": "0900-0245",
+                                                        "url": "https://www.dierenambulance.nl/contact/",
+                                                        "notes": "While most major cities and regions have their own animal ambulance service, there is also a national one. It is always good to have this number on hand if you need to get your pet to a hospital quickly and you cannot do it yourself."
+                                                        }
         ]
     },
     {
