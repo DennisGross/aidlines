@@ -5137,7 +5137,7 @@ const data = [
                 "phone": "147",
                 "url": "",
                 "notes": ""
-            	},
+            	}
             
         ]
     },
@@ -5152,7 +5152,48 @@ const data = [
         "firefighterNumber": "100",
         "firefighterNotes": "",
         "helplines": [
-        	
+        	{
+                "name": "SOS Viol Helpline",
+                "phone": "+32 0800 98 100",
+                "url": "",
+                "notes": ""
+            	},
+            	{
+                "name": "Violence and Abuse Helpline",
+                "phone": "1712",
+                "url": "",
+                "notes": ""
+            	},
+            	{
+                "name": "Brussels Sexual Violence Support Center (CPVS)",
+                "phone": "02 535 45 42",
+                "url": "",
+                "notes": "Or 02 535 36 66."
+            	},
+            	{
+                "name": "BEcoutes Violences Conjugales (for marital violence)",
+                "phone": "0800 300 30",
+                "url": "",
+                "notes": ""
+            	},
+            	{
+                "name": "Collective against Family Violence and Exclusion (CVFE)",
+                "phone": "04 223 45 67",
+                "url": "",
+                "notes": "Or 0800 30 030."
+            	},
+            	{
+                "name": "ADT - Animal Disaster Team",
+                "phone": "",
+                "url": "https://www.adt-rescue.be/en",
+                "notes": "Reachable via website. Our teams are operational nationwide, providing assistance 24 hours a day, 7 days a week. ADT has equipped itself with a fleet of vehicles and has access to both human and technical resources, enabling us to respond to any intervention request within 2 or 3 hours."
+            	},
+            	{
+                "name": "Vet Emergency",
+                "phone": "026442424",
+                "url": "https://vetemergency.be/en/",
+                "notes": "Call 24/7. Brussels - Wallonia - Flemish Brabant - Antwerp."
+            	}
             
         ]
     },
@@ -5167,7 +5208,45 @@ const data = [
         "firefighterNumber": "191",
         "firefighterNotes": "",
         "helplines": [
-        	
+        	{
+                "name": "Association for the Promotion of the Status of Women 24 Hr Helpline",
+                "phone": "02 929 2222",
+                "url": "",
+                "notes": ""
+            	},
+                {
+                    "name": "National Council of Women",
+                    "phone": "0 2117 9353",
+                    "url": "",
+                    "notes": ""
+                    }
+                ,
+                {
+                    "name": "Pavena Foundation for Children and Women",
+                    "phone": "1134",
+                    "url": "",
+                    "notes": ""
+                }
+                ,
+                {
+                    "name": "Ministry of Social Development Hotline",
+                    "phone": "1300",
+                    "url": "",
+                    "notes": ""
+                }
+                ,
+                {
+                    "name": "Foundation for Women",
+                    "phone": "0 2433 5149",
+                    "url": "",
+                    "notes": "Or 0 2435 1246."
+                },
+                {
+                    "name": "The Women and Men Foundation",
+                    "phone": "0 2513 2889",
+                    "url": "",
+                    "notes": ""
+                }
             
         ]
     }
@@ -5188,7 +5267,19 @@ const data = [
                 "phone": "111",
                 "url": "",
                 "notes": ""
-            	}	
+            	},
+                {
+                    "name": "Hotline for Free Consultation on Gender Violence",
+                    "phone": "024 3333 55 99",
+                    "url": "",
+                    "notes": ""
+                },
+                {
+                    "name": "Center for Women and Development",
+                    "phone": "+84 24 3728 02 80",
+                    "url": "",
+                    "notes": ""
+                    }		
             
         ]
     }
@@ -5400,7 +5491,19 @@ const data = [
         "firefighterNumber": "000",
         "firefighterNotes": "People who are deaf or have a hearing or speech impairment can use a TTY to call 106.",
         "helplines": [
-	
+            {
+                "name": "1800RESPECT National Sexual Assault, Family & Domestic Violence Line",
+                "phone": "1800 737 732",
+                "url": "",
+                "notes": ""
+            	}
+            ,
+            {
+                "name": "Men's Line Australia",
+                "phone": "1300 78 99 78",
+                "url": "",
+                "notes": ""
+            	}
         ]
     },
     {
@@ -5414,7 +5517,30 @@ const data = [
         "firefighterNumber": "113",
         "firefighterNotes": "",
         "helplines": [
-	
+            {
+                "name": "Women's Crisis Center (Jombang)",
+                "phone": "081 235 020 62",
+                "url": "",
+                "notes": ""
+            	}
+            ,
+            {
+                "name": "Ministry of Women Empowerment and Child Protection",
+                "phone": "(021) 38 426 38",
+                "url": "",
+                "notes": "Or 38 055 63."
+            	}
+                ,{
+                    "name": "National Commission on Violence Against Women",
+                    "phone": "+62 21 390 39 63",
+                    "url": "",
+                    "notes": ""
+                    },{
+                        "name": "SAPA 129 Helpline for women and Child Victims of Violence",
+                        "phone": "129",
+                        "url": "",
+                        "notes": "Or WhatsApp 08111-129-129"
+                        }
         ]
     },
     {
@@ -5464,7 +5590,41 @@ const data = [
                 "phone": "108",
                 "url": "",
                 "notes": ""
-            	}
+            	},
+                {
+                    "name": "National SOS Helpline",
+                    "phone": "15 900",
+                    "url": "",
+                    "notes": ""
+                    }
+                    ,
+                    {
+                        "name": "Greek Network of Europe SOS Helpline",
+                        "phone": "210 9700814",
+                        "url": "",
+                        "notes": ""
+                        }
+                        ,
+                        {
+                            "name": "WIN Hellas Violence Against Women Helpline",
+                            "phone": "2108 99 66 36",
+                            "url": "",
+                            "notes": ""
+                            }
+                            ,
+                            {
+                                "name": "National Center for Emergency Social Assistance",
+                                "phone": "197",
+                                "url": "",
+                                "notes": ""
+                                }
+                                ,
+                                {
+                                    "name": "Crete Line of Hope",
+                                    "phone": "801 11 16000",
+                                    "url": "",
+                                    "notes": ""
+                                    }
         ]
     }
     ,
@@ -5517,13 +5677,54 @@ const data = [
 		"phone_pref": "+39",
         "flag": "🇮🇹",
         "ambulanceNumber": "118",
-        "ambulanceNotes": "Also: 112",
+        "ambulanceNotes": "Urgent and emergency medical attention: 118 (health-related needs). This number is also relevant for mountain or cave rescue. Also: 112",
         "policeNumber": "113",
         "policeNotes": "Also: 112",
         "firefighterNumber": "115",
         "firefighterNotes": "Also: 112",
         "helplines": [
-            	
+            {
+                "name": "Telefona Rosa 24 Hrs (Pink Telephone) Violence Helpline",
+                "phone": "06 375 18 282",
+                "url": "",
+                "notes": ""
+            	}
+            ,{
+                "name": "Violence and Stalking 24 Hr Helpline (Numero Gratuito Antiviolenza e Antistalking)",
+                "phone": "1522",
+                "url": "",
+                "notes": ""
+            	}
+                ,{
+                    "name": "Telephone Rosa Piemonte of Turin (ODV)",
+                    "phone": "327 327 5692",
+                    "url": "",
+                    "notes": ""
+                    }
+                    ,{
+                        "name": "Animal Emergency",
+                        "phone": "800554084",
+                        "url": "",
+                        "notes": ""
+                        }
+                        ,{
+                            "name": "Sea rescue",
+                            "phone": "1530",
+                            "url": "",
+                            "notes": ""
+                            }
+                            ,{
+                                "name": "Forest ranger",
+                                "phone": "1515",
+                                "url": "",
+                                "notes": ""
+                                }
+                                ,{
+                                    "name": "Roadside Assistance: at all hours of the day for motorists in emergency",
+                                    "phone": "803.116",
+                                    "url": "https://www.aci.it/laci/sicurezza-stradale/servizi-di-assistenza.html",
+                                    "notes": ", assistance is provided by the Automobile Club d’Italia (ACI), a federation of 106 provincial Automobile Clubs, which represents and protects the interests of Italian motoring. You can contact them on 803.116 or visit the official ACI website."
+                                    }
         ]
     }
     ,
@@ -5538,7 +5739,30 @@ const data = [
         "firefighterNumber": "112",
         "firefighterNotes": "",
         "helplines": [
-            	
+            {
+                "name": "National 24 Hour Gender Violence Helpline",
+                "phone": "016",
+                "url": "",
+                "notes": ""
+            	},
+                {
+                    "name": "The Telephone Service for Care and Protection for victims of gender violence (ATENPRO)",
+                    "phone": "900 22 22 92",
+                    "url": "",
+                    "notes": ""
+                    },
+                    {
+                        "name": "Federation of Associations for Assistance to Victims of Sexual Violence Helpline",
+                        "phone": "636 858 923",
+                        "url": "",
+                        "notes": ""
+                        },
+                        {
+                            "name": "Mum Helpline for Victims of Gender Based Violence",
+                            "phone": "601 22 37 06",
+                            "url": "",
+                            "notes": ""
+                            },
         ]
     }
     ,
@@ -5650,7 +5874,44 @@ const data = [
         "firefighterNumber": "999",
         "firefighterNotes": "Also 112. If you cannot make a voice call, you can text 112 in an emergency.",
         "helplines": [
-            	
+            {
+                "name": "Rape Crisis Ireland 24 Hour Helpline",
+                "phone": "1800 77 88 88",
+                "url": "",
+                "notes": ""
+            	},
+                {
+                    "name": "24 Hr National Freephone Helpline",
+                    "phone": "1800 341 900",
+                    "url": "",
+                    "notes": ""
+                    },
+                    {
+                        "name": "Victim Support Helpline",
+                        "phone": "116 006",
+                        "url": "",
+                        "notes": ""
+                        },
+                        {
+                            "name": "National Freephone Helpline",
+                            "phone": "1800 341 900",
+                            "url": "",
+                            "notes": ""
+                            }
+                            ,
+                            {
+                                "name": "Elder Abuse Helpline",
+                                "phone": "1850 24 1850",
+                                "url": "",
+                                "notes": ""
+                                }
+                                ,
+                                {
+                                    "name": "Men's Aid Helpline",
+                                    "phone": "01 554 3811",
+                                    "url": "",
+                                    "notes": ""
+                                    }
         ]
     },
     {
@@ -6093,7 +6354,42 @@ const data = [
         "firefighterNumber": "128",
         "firefighterNotes": "",
         "helplines": [
-        	
+        	{
+                "name": "The Women and Girls Advice Line",
+                "phone": "116 117",
+                "url": "",
+                "notes": ""
+            	},
+                {
+                    "name": "Forum Gruas Elbasan (Woman Forum Elbasan)",
+                    "phone": "+355 69 651 1674",
+                    "url": "",
+                    "notes": ""
+                    },
+                    {
+                        "name": "Vatra Helpline",
+                        "phone": "+355 33 400 736",
+                        "url": "",
+                        "notes": "Mobile: +355 68 69 06 974"
+                        },
+                        {
+                            "name": "Gruaja tek Gruaja (Women to Women)",
+                            "phone": "+355 69 609 0527",
+                            "url": "",
+                            "notes": ""
+                            },
+                            {
+                                "name": "WCSSC (Women's Counselling and Social Services Centre)",
+                                "phone": "+355 2422 4588",
+                                "url": "",
+                                "notes": ""
+                                },
+                                {
+                                    "name": "The Strehëza Edlira haxhiymer center (SEH)",
+                                    "phone": "+355 4 226 1885",
+                                    "url": "",
+                                    "notes": ""
+                                    }
         ]
     },
     {
@@ -6107,7 +6403,18 @@ const data = [
         "firefighterNumber": "112",
         "firefighterNotes": "",
         "helplines": [
-        	
+        	{
+                "name": "ALEG Support Line",
+                "phone": "+40 753 893 531",
+                "url": "",
+                "notes": ""
+                }
+            ,{
+                "name": "Toll-free 24 hour hotline for domestic and sexual violence support",
+                "phone": "0800 500 333",
+                "url": "",
+                "notes": ""
+                }
         ]
     },
     {
@@ -6121,7 +6428,46 @@ const data = [
         "firefighterNumber": "998",
         "firefighterNotes": "",
         "helplines": [
-        	
+        	{
+                "name": "Women's Rights Center Foundation 24/7 nationwide hotline",
+                "phone": " 07 07 07 17",
+                "url": "",
+                "notes": ""
+                },{
+                    "name": "Warsaw Anti-Violence Helpline",
+                    "phone": "888 88 33 88",
+                    "url": "",
+                    "notes": ""
+                    },{
+                        "name": "Crisis Intervention Point",
+                        "phone": "22 837 55 59",
+                        "url": "",
+                        "notes": ""
+                        }
+                        ,{
+                            "name": "National 24/7 Emergency Service for Survivors of Family Violence (Blue Line)",
+                            "phone": "22 668 70 00",
+                            "url": "",
+                            "notes": ""
+                            }
+                            ,{
+                                "name": "Warsaw 24/7 Emergency Service for Survivors of Family Violence (Blue Line)",
+                                "phone": "573 976 666",
+                                "url": "",
+                                "notes": ""
+                                }
+                                ,{
+                                    "name": "Counseling Center for Counteracting Domestic Violence",
+                                    "phone": "22 845 12 12",
+                                    "url": "",
+                                    "notes": "Or mobile: 667 833 400"
+                                    }
+                                    ,{
+                                        "name": "Warsaw Center for Crisis Intervention (WOIK)",
+                                        "phone": "514 202 619",
+                                        "url": "",
+                                        "notes": ""
+                                        }
         ]
     },
     {
@@ -6554,7 +6900,33 @@ const data = [
                 "phone": "115",
                 "url": "",
                 "notes": ""
-            	}
+            	},
+                {
+                    "name": "Skalbes 24 Hour Crisis Helpline",
+                    "phone": "116 123",
+                    "url": "",
+                    "notes": "Or +371 67 222 922"
+                    },
+                    {
+                        "name": "Marta Center",
+                        "phone": "+371 67 378 539",
+                        "url": "",
+                        "notes": ""
+                        }
+                        ,
+                        {
+                            "name": "Pasparne 24 hours Crisis Center for women victims of violence",
+                            "phone": "+371 63 661 515",
+                            "url": "",
+                            "notes": ""
+                            }
+                            ,
+                            {
+                                "name": "Victim Support",
+                                "phone": "116 006",
+                                "url": "",
+                                "notes": ""
+                                }
         ]
     },
     {
@@ -6579,6 +6951,18 @@ const data = [
                 "phone": "116 006",
                 "url": "",
                 "notes": "If you have suffered or are suffering physical, mental, economic or sexual violence."
+            	},
+            	{
+                "name": "MTÜ Järvamaa Women's Support Center",
+                "phone": "581 337 55",
+                "url": "",
+                "notes": ""
+            	},
+            	{
+                "name": "Women's Support and Information Center",
+                "phone": "+372 55 949 496",
+                "url": "",
+                "notes": "58 849 494"
             	}
         ]
     },
@@ -6636,7 +7020,18 @@ const data = [
         "firefighterNumber": "104",
         "firefighterNotes": "",
         "helplines": [
-        	
+        	{
+                "name": "Guidance and Consultation Service on Gender Based Violence",
+                "phone": "0800 4141",
+                "url": "",
+                "notes": ""
+            	},
+            	{
+                "name": "Casa de la Mujer",
+                "phone": "2506 06 01",
+                "url": "",
+                "notes": "Or 2507 36 14"
+            	}
         ]
     },
     {
@@ -6650,7 +7045,18 @@ const data = [
         "firefighterNumber": "911",
         "firefighterNotes": "Also: 132",
         "helplines": [
-        	
+        	{
+                "name": "SOS Mujeres Gender Violence Support Line",
+                "phone": "137",
+                "url": "",
+                "notes": ""
+            	},
+            	{
+                "name": "Women's Attention Service (SEDAMUR) for comprehensive care",
+                "phone": "021 45 20 60",
+                "url": "",
+                "notes": ""
+            	}
         ]
     },
     {
@@ -6669,7 +7075,13 @@ const data = [
                 "phone": "100",
                 "url": "",
                 "notes": ""
-            	}
+            	},
+                {
+                    "name": "The Urgent Care Service",
+                    "phone": "41 97 260",
+                    "url": "",
+                    "notes": "If you are a woman or part of a family group and you are experiencing violence, you can request support."
+                    }
         ]
     },
     {
@@ -6683,7 +7095,26 @@ const data = [
         "firefighterNumber": "911",
         "firefighterNotes": "",
         "helplines": [
-        	
+        	{
+                "name": "Free Voices Helpline",
+                "phone": "+591 4 444 6652",
+                "url": "",
+                "notes": ""
+                },
+                {
+                    "name": "Fuerza Especial de Lucha Contra la Violencia (FELCV) Police Special Unit Helpline",
+                    "phone": "800 140 348",
+                    "url": "",
+                    "notes": ""
+                    }
+                
+                    ,
+                {
+                    "name": "Pro Mujer Violence Helpline",
+                    "phone": "800 10 24 14",
+                    "url": "",
+                    "notes": ""
+                    }
         ]
     },
     {
@@ -6697,7 +7128,18 @@ const data = [
         "firefighterNumber": "193",
         "firefighterNotes": "",
         "helplines": [
-        	
+        	{
+                "name": "Violence Against Women Helpline",
+                "phone": "180",
+                "url": "",
+                "notes": ""
+                },
+                {
+                    "name": "Instituto Cia dos Sonhos",
+                    "phone": "11 2079 7458",
+                    "url": "",
+                    "notes": ""
+                    }
         ]
     },
     {
@@ -6716,7 +7158,20 @@ const data = [
                 "phone": "165",
                 "url": "",
                 "notes": ""
-            	}
+            	},
+                {
+                    "name": "Bogata: “Línea Púrpura Distrital” (Purple Line)",
+                    "phone": "01 8000 112 137",
+                    "url": "",
+                    "notes": ""
+                    }
+                ,
+                {
+                    "name": "National Violence Against Women Helpline",
+                    "phone": "155",
+                    "url": "",
+                    "notes": ""
+                    }
         ]
     },
     {
@@ -6730,6 +7185,31 @@ const data = [
         "firefighterNumber": "911",
         "firefighterNotes": "102",
         "helplines": [
+            
+                {
+                    "name": "Call 1800 DELITO (1800 335 486) option 4, if you feel that your life is in danger - or dial 911",
+                    "phone": "1800 335 486",
+                    "url": "",
+                    "notes": "Or 911"
+                    },
+                    {
+                        "name": "CEPAM (Centro Ecuatoriano Para la Promocion y Accion De La Mujer) GUAYAQUIL Hotline",
+                        "phone": "0991 113 526",
+                        "url": "",
+                        "notes": ""
+                        },
+                        {
+                            "name": "Amiga, Ya No Estas Sola (Friend, You Are Not Alone) AYNES",
+                            "phone": "1800 112 112",
+                            "url": "",
+                            "notes": ""
+                            },
+                            {
+                                "name": "Fundación María Guare",
+                                "phone": "+593 98 067 5315",
+                                "url": "",
+                                "notes": ""
+                                }
         	
         ]
     },
@@ -6772,7 +7252,30 @@ const data = [
         "firefighterNumber": "912",
         "firefighterNotes": "",
         "helplines": [
-        	
+            {
+                "name": "Help and Shelter 24 Hour Hotline",
+                "phone": "+592 227 34 54",
+                "url": "",
+                "notes": "Or 225 47 31"
+                },
+                {
+                    "name": "Emergency GBV Hotline",
+                    "phone": "914",
+                    "url": "",
+                    "notes": ""
+                    },
+                    {
+                        "name": "Red Thread (referral support)",
+                        "phone": "+592 227 70 10",
+                        "url": "",
+                        "notes": ""
+                        },
+                        {
+                            "name": "National Coordinating Coalition",
+                            "phone": "(592) 637 3319ss",
+                            "url": "",
+                            "notes": "Call Message or WhatsApp the 24hr GBV Helpline (592) 628 7833"
+                            }
         ]
     },
     {
@@ -6800,7 +7303,17 @@ const data = [
         "firefighterNumber": "115",
         "firefighterNotes": "",
         "helplines": [
-        	
+        	{
+                "name": "Women's Rights Centre",
+                "phone": "+597 550 508",
+                "url": "",
+                "notes": "Or +597 520 916"
+                },{
+                    "name": "STICRIS women's shelter",
+                    "phone": "+597 404 228",
+                    "url": "",
+                    "notes": ""
+                    }
         ]
     },
     {
@@ -6814,7 +7327,17 @@ const data = [
         "firefighterNumber": "911",
         "firefighterNotes": "Also: 171",
         "helplines": [
-        	
+        	{
+                "name": "GBV Hotline",
+                "phone": "0800 MUJERES (0800 685 37 37)",
+                "url": "",
+                "notes": "*112 from Movilnet"
+                },{
+                    "name": "AVESA",
+                    "phone": "+58 0424 166 22 20",
+                    "url": "",
+                    "notes": "Send message to"
+                    }
         ]
     },
     {
