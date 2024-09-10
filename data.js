@@ -210,6 +210,12 @@ const data = [
                 "phone": "1280",
                 "text": "",
                 "notes": ""
+            	},
+            	{
+                "name": "TPO Cambodia Suicide Prevention Helpline",
+                "phone": "017222372",
+                "text": "",
+                "notes": "TPO Cambodia Suicide Prevention Helpline provides free and confidential support by phone and online chat."
             	}
         ]
     },
@@ -5725,6 +5731,36 @@ const data = [
                 "phone": "116 111",
                 "url": "",
                 "notes": ""
+            	},
+            	{
+                "name": "Mental Helse Hjelpetelefonen",
+                "phone": "116 123",
+                "url": "",
+                "notes": "Mental health response services are various anonymous low-threshold services. we are always open when you need someone to talk to about big things."
+            	},
+            	{
+                "name": "Kirkens SOS",
+                "phone": "22400040",
+                "url": "",
+                "notes": "24/7. Kirkens SOS is dedicated to providing 24/7, free, compassionate and confidential support over phone and online chat."
+            	},
+            	{
+                "name": "National 24 Hr Helpline for Sexual Abuse",
+                "phone": "800 57 000",
+                "url": "https://hfsm.no/om",
+                "notes": ""
+            	},
+            	{
+                "name": "Support Centre for Crime Victims",
+                "phone": "800 40 008",
+                "url": "https://www.regjeringen.no/en/topics/law-and-order/lov-og-rett--satsing/vold-i-nare-relasjoner/seek-help-if-you-experience-violence/id2696812/?expand=factbox2696817",
+                "notes": ""
+            	},
+            	{
+                "name": "The Center for Sexually Abused Men",
+                "phone": "+47 22 42 42 02",
+                "url": "https://ssmm.no/",
+                "notes": ""
             	}
         ]
     },
@@ -5793,11 +5829,29 @@ const data = [
         "firefighterNumber": "118",
         "firefighterNotes": "",
         "helplines": [
+                {
+                "name": "24 Hour Support Line: (Alo)",
+                "phone": "183",
+                "url": "https://www.csdestek.org/acil-destek-durumlari",
+                "notes": ""
+            	},
+                {
+                    "name": "Mor Cati in Istanbul (The Purple Roof Women's Shelter Foundation)",
+                    "phone": "212 292 52 31",
+                    "url": "https://morcati.org.tr/bize-ulasin/",
+                    "notes": "Or 212 292 52 32."
+                    },
+                    {
+                        "name": "Kamer Foundation Emergency Support Helpline",
+                        "phone": "0530 664 44 10",
+                        "url": "https://www.kamer.org.tr/index.php",
+                        "notes": ""
+                        },
             	{
                 "name": "Counseling for adults",
                 "phone": "143",
                 "url": "",
-                "notes": "This hotline is for people who want to talk to someone about any problems."
+                "notes": "This hotline is for people who want to talk to someone about any problems. In Italian German French and English languages.This hotline is for people who want to talk to someone about any problems"
             	},
             	{
                 "name": "Counseling for children and young people",
@@ -5811,12 +5865,7 @@ const data = [
                 "url": "",
                 "notes": "Through the parent emergency helpline experts advise parents and others about raising children."
             	},
-            	{
-                "name": "Counseling for adults",
-                "phone": "143",
-                "url": "",
-                "notes": "In Italian German French and English languages.This hotline is for people who want to talk to someone about any problems."
-            	},
+            	
             	{
                 "name": "Domestic Violence (Women)",
                 "phone": "062 823 86 00",
@@ -6175,7 +6224,13 @@ const data = [
                 "phone": "0800 11 112",
                 "url": "",
                 "notes": ""
-                }
+                },
+                {
+                    "name": "Linja e Jetës",
+                    "phone": "0800 11 112",
+                    "url": "",
+                    "notes": "The Lifeline is a helpline for suicide prevention and anyone thinking about suicide."
+                    }
             ]
         
     },
@@ -7857,6 +7912,20 @@ const data = [
                     "url": "",
                     "notes": ""
                     }
+                ,
+                {
+                    "name": "CVV - Centro de Valorização da Vida",
+                    "phone": "188",
+                    "url": "https://cvv.org.br/",
+                    "notes": "Made up exclusively of volunteers, CVV offers emotional support and suicide prevention free of charge. Those who seek us out are usually feeling lonely or need to talk confidentially, without judgment, criticism or comparisons. We operate nationwide. Our service is provided by telephone 188 (24 hours a day and free of charge), chat, email and in person at some addresses."
+                    },
+                    {
+                        "name": "JUNAAB Alcoólicos Anônimos do Brasil",
+                        "phone": "55113315-9333",
+                        "url": "https://www.aa.org.br/",
+                        "notes": "Available nationwide in Brazil."
+                        }
+                        
         ]
     },
     {
