@@ -30,6 +30,12 @@ const data = [
                 "text": "",
                 "notes": "English: +973 3844 7588; Arabic: +973 6671 0901. National Sexual Assault Helpline. National Domestic Violence Helpline"
             	},
+                {
+                    "name": "allcarevetclinic (Veterinary Clinic)",
+                    "phone": "+973 38045678",
+                    "text": "https://www.allcarevetclinic.com/service/emergency",
+                    "notes": "7 Days a week 10AM to 8PM. We offer severe illness or injury emergency care to you and your pets around-the-clock. Although we hope your pet never needs us, common emergencies include vehicle accidents, heart problems, poisoning, and a variety of traumas. Riviera Palace, Shop 793A, Road 328, Block 368. South Sehla, Bahrain."
+                },
             	{
                 "name": "Women's Police",
                 "phone": "1787 0302",
@@ -5264,6 +5270,12 @@ const data = [
                 "url": "",
                 "notes": ""
             	},
+                {
+                    "name": "Alcooliques Anonymes",
+                    "phone": "078 15 25 56",
+                    "url": "",
+                    "notes": "At your service 24/7"
+                    },
             	{
                 "name": "Collective against Family Violence and Exclusion (CVFE)",
                 "phone": "04 223 45 67",
@@ -5396,6 +5408,12 @@ const data = [
                 "notes": ""
             },
             {
+                "name": "The Trevor Project - Mexico",
+                "phone": "+52 55 9225 3337",
+                "url": "",
+                "notes": "Contact is via Whatsapp. Having doubts about your gender identity or sexual orientation is normal. If you feel anxious, afraid or have thought about harming yourself, write to us. Free and confidential."
+            },
+            {
                 "name": "ADIVAC (Association for the support of victims of rape)",
                 "phone": "Mexico City: 5682 7969 or 5547 8639; León, Guanajuato: (477) 2511847",
                 "url": "",
@@ -5439,6 +5457,12 @@ const data = [
                 "url": "https://988lifeline.org/",
                 "notes": "Also texting"
             	},
+                {
+                    "name": "Drug Addiction Hotline",
+                    "phone": "866-210-1303",
+                    "url": "",
+                    "notes": "An alcohol addiction hotline is a dedicated telephone service that provides support, information, and assistance to individuals struggling with alcohol addiction or alcohol-related problems."
+                    },
                 {
                     "name": "Crisis Text Line",
                     "phone": "741741",
@@ -5490,6 +5514,48 @@ const data = [
                 "url": "",
                 "notes": ""
             	},
+                {
+                    "name": "Kids Help Phone",
+                    "phone": "1-800-668-6868",
+                    "url": "",
+                    "notes": "Text 686868. Professional counselling, information and referrals support to young people 24/7 Virtual services in English and French."
+                    },
+                    {
+                        "name": "Drug Rehab Services",
+                        "phone": "1-877-254-3348",
+                        "url": "",
+                        "notes": "Free, confidential professional help and resource for drug and alcohol addiction in Canada Referrals for clients seeking support with substances."
+                        },
+                        {
+                            "name": "Narcotics Anonymous",
+                            "phone": "1-855-562-2262",
+                            "url": "",
+                            "notes": "Free meetings (includes virtual) and support for anyone who wants to stop using drugs may become a member This is a program of complete abstinence from all drugs."
+                            },
+                            {
+                                "name": "Families for Addiction Recovery",
+                                "phone": "1-855-377-6677",
+                                "url": "",
+                                "notes": "Free peer support services for families, parents, caregivers of children struggling with addiction (regardless of age)."
+                                },
+                                {
+                                    "name": "Provincial and territorial quit smoking services",
+                                    "phone": "1-866-366-3667",
+                                    "url": "",
+                                    "notes": "Access free, convenient support within each province and territory Telephone, online or text services in English and French based on the location Trained specialists can provide counselling, help develop a quit smoking plan, answer questions and provide referrals to programs and services in your community."
+                                    },
+                                    {
+                                        "name": "National Overdose Response Service (NORS)",
+                                        "phone": "1-888-688-NORS(6677)",
+                                        "url": "",
+                                        "notes": "Overdose prevention hotline for Canadians Confidential, non-judgmental support for you, whenever and wherever you use drugs."
+                                        },
+                                        {
+                                            "name": "Hope for Wellness Helpline (Support for Indigenous peoples)",
+                                            "phone": "1-855-242-3310",
+                                            "url": "",
+                                            "notes": "mmediate help, including counselling and crisis intervention, to all Indigenous people across Canada 24 hours a day, 7 days a week in English, French, Cree, Ojibway, or Inuktitut."
+                                            },
             	{
                 "name": "National Sexual Assault Hotline (RAINN)",
                 "phone": "1-800-656-4673",
