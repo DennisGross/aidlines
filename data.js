@@ -210,7 +210,13 @@ const data = [
                 "phone": "1280",
                 "text": "",
                 "notes": ""
-            	},
+            	},{
+                    "name": "Cambodia A.A. Hotline",
+                    "phone": "(855)8-8818-1284",
+                    "url":"http://www.aacambodia.org",
+                    "text": "",
+                    "notes": ""
+                    },
             	{
                 "name": "TPO Cambodia Suicide Prevention Helpline",
                 "phone": "017222372",
@@ -235,7 +241,19 @@ const data = [
                 "phone": "010 6833 3388",
                 "text": "",
                 "notes": "National Sexual Assault Helpline. National Domestic Violence Helpline."
-            	},
+            	},{
+                    "name": "Beijing 24 Hour Hotline (Eng)",
+                    "phone": "(86)158-2244-8018",
+                    "url":"http://www.aabeijing.com",
+                    "text": "",
+                    "notes": ""
+                    },{
+                        "name": "Shanghai Hotline (Eng)",
+                        "phone": "(86)137-01715848",
+                        "url":"",
+                        "text": "",
+                        "notes": ""
+                        },
             	{
                 "name": "Hunan Province: Hunan Women's Federation Hotline",
                 "phone": " 0898-12338",
@@ -315,6 +333,13 @@ const data = [
                 "text": "",
                 "notes": "National Sexual Assault Helpline. National Domestic Violence Helpline."
             	},
+                {
+                    "name": "Hong Kong AA Intergroup",
+                    "phone": "(+852) 90736922",
+                    "text": "",
+                    "url":"http://www.aa-hk.org",
+                    "notes": ""
+                },
             	{
                 "name": "Youth Outreach Youth Hotline",
                 "phone": " 9088 1023",
@@ -514,6 +539,26 @@ const data = [
                 "phone": "'123",
                 "text": "",
                 "notes": ""
+            	},
+            	{
+                "name": "General Service Office Of Iran Alcoholics Anonymous",
+                "phone": "(+98)217-757-4663",
+                "text": "",
+                "url":"http://www.iranaa.org",
+                "notes": "Helpline:(+98)263-273-3069"
+            	},
+            	{
+                "name": "Area 15 Shemiranat and North of Tehran",
+                "phone": "+98 2146019262",
+                "url":"http://tehranaa.org",
+                "text": "",
+                "notes": ""
+            	},
+            	{
+                "name": "Area 5 Kerman's Central Office",
+                "phone": "(+98)-34-32736994",
+                "text": "",
+                "notes": "Answering Service:(+98) 9135111338"
             	}
         ]
     },
@@ -555,16 +600,23 @@ const data = [
         "helplines": [
             	{
                 "name": "Eran.org.il Suicide line",
-                "phone": "'+964 053 318 3149",
+                "phone": "+964 053 318 3149",
                 "text": "1201",
                 "notes": "Or 972–9 8891333 from abroad. Operates 24/7 including holidays and can be reached from all regions of Israel.  SMS service is given as well during Sunday to Friday between 14:00–18:00 at 076–88444–00."
             	},
             	{
                 "name": "Home Front Command",
-                "phone": "'104",
+                "phone": "104",
                 "text": "",
                 "notes": ""
             	},
+                {
+                    "name": "A.A. Israel Central Service",
+                    "phone": "(97) 072-393-2500",
+                    "url":"http://www.aa-israel.org",
+                    "text": "",
+                    "notes": ""
+                    },
             	{
                 "name": "Online child abuse hotline",
                 "phone": "'105",
@@ -711,7 +763,13 @@ const data = [
                 "phone": "150",
                 "text": "",
                 "notes": "Or +77081060810 (WhatsApp)"
-            	}
+            	},
+                {
+                    "name": "A.A. Service Fund of the Republic of Kazakhstan",
+                    "phone": "+7 (707)-208-05-53",
+                    "text": "",
+                    "notes": ""
+                    }
         ]
     },
     {
@@ -790,6 +848,13 @@ const data = [
                 "text": "",
                 "notes": "94000463, 94000435"
             	},
+                {
+                    "name": "A.A. Kuwait Answering Service (Eng)",
+                    "phone": "(965)99089533",
+                    "url" : "http://www.aaarabia.org",
+                    "text": "",
+                    "notes": ""
+                    },
             	{
                 "name": "Social Development Office",
                 "phone": "Social Development Office - Mansouriya Branch: 225 406 96 (ext.203, 204,2020, 207); Yarmouk Branch: 253 364 84 (Ext.162, 184, 362); Al-Jahra Branch: 245 684 50 or 245 684 52; Counseling department: 224 409 05 or 224 409 04 or 224 394 34",
@@ -846,6 +911,12 @@ const data = [
                 "text": "",
                 "notes": ""
             	},
+                {
+                    "name": "Alcoholics Anonymous Laos Answering Service",
+                    "phone": "(856)205-4881173",
+                    "text": "",
+                    "notes": ""
+                    },
             	{
                 "name": "Counseling and Protection Center for Women and Children",
                 "phone": "1362",
@@ -1012,6 +1083,13 @@ const data = [
                 "phone": "+960 997 7771",
                 "text": "",
                 "notes": ""
+            },
+            {
+                "name": "A.A. Answering Service in Maldives",
+                "phone": "(960) 777-7414",
+                "url":"https://aameetingsmaldives.weebly.com/",
+                "text": "",
+                "notes": ""
             }
         ]
     },
@@ -1043,6 +1121,13 @@ const data = [
                 "phone": "+976 1131 1512",
                 "text": "",
                 "notes": "Or +976 7011 1112"
+            },
+            {
+                "name": "GSO Mongolia",
+                "phone": "(976)11-351-056",
+                "url":"http://www.aa.org.mn",
+                "text": "",
+                "notes": ""
             }
         ]
     },
@@ -1122,6 +1207,16 @@ const data = [
             	{
                 "name": "Protection Hotline",
                 "phone": "1100",
+                "text": "",
+                "notes": "."
+            },{
+                "name": "Salalah Region of Oman Meeting Information Hotline",
+                "phone": "(968)9276-0281",
+                "text": "",
+                "notes": "."
+            },{
+                "name": "Sohar Region of Oman Meeting Information Hotline",
+                "phone": "(968)9787-9811",
                 "text": "",
                 "notes": "."
             },
@@ -1302,7 +1397,31 @@ const data = [
                 "name": "Child abuse (Bantay Bata) ",
                 "phone": "163",
                 "text": "",
-                "notes": "."
+                "notes": ""
+            },{
+                "name": "1st Cebu A.A. Groups 24 hr.Helpline (Multilingual)",
+                "phone": "(63)32-406-4456",
+                "text": "",
+                "url":"https://aacebu.org",
+                "notes": ""
+            },{
+                "name": "A.A. Intergroup Angeles City",
+                "phone": "(+63)-45-892-4258",
+                "text": "",
+                "url":"http://www.alcoholics-anonymous-philippines.org",
+                "notes": ""
+            },{
+                "name": "Dumaguete City A.A. 24 Hour Hotline",
+                "phone": "(639)17-629-6271",
+                "text": "",
+                "url":"http://www.aaphilippines-cebu.info",
+                "notes": ""
+            },{
+                "name": "Makati City Intergroup",
+                "phone": "(632) 890-2247",
+                "text": "",
+                "url":"http://www.aaphilippines-cebu.info",
+                "notes": ""
             },
             {
                 "name": "Human trafficking",
@@ -1452,6 +1571,13 @@ const data = [
                 "notes": ""
             },
             {
+                "name": "Singapore AA Intergroup",
+                "phone": "+6564740582",
+                "text": "",
+                "url":"http://www.singaporeaa.org",
+                "notes": "Answering Service:(659) 053-1764"
+            },
+            {
                 "name": "AWARE Sexual Assault Care Centre Helpline",
                 "phone": "6779 0282",
                 "text": "",
@@ -1499,6 +1625,12 @@ const data = [
                 "phone": "077 5676 555",
                 "text": "",
                 "notes": ""
+            },{
+                "name": "Greater Colombo Intergroup of Sri Lanka",
+                "phone": "(+94) 727860860",
+                "url":"http://www.aaintergroupsrilanka.org",
+                "text": "",
+                "notes": "Phone:(+94) 786056999"
             },
             {
                 "name": "Ministry of Women & Child Affairs and Social Security 24 Hr Helpline",
@@ -1707,6 +1839,24 @@ const data = [
                 "text": "",
                 "notes": ""
             },{
+                "name": "Abu Dhabi A.A. Hotline",
+                "phone": "(971)56-788-1416",
+                "url":"http://www.aauae.net",
+                "text": "",
+                "notes": ""
+            },{
+                "name": "Dubai/Sharjah A.A. Hotline",
+                "phone": "(971)56-788-1416",
+                "url":"http://www.aauae.net",
+                "text": "",
+                "notes": ""
+            },{
+                "name": "United Arab Emirates AA Intergroup",
+                "phone": "(+971)504675415",
+                "url":"http://www.aauae.net",
+                "text": "",
+                "notes": "Helpline: (+971) 567881416"
+            },{
                 "name": "Ministry of Interior hotline",
                 "phone": "116 111",
                 "text": "",
@@ -1764,6 +1914,12 @@ const data = [
                 "name": "Regional Center for Social Protection of the Family Oydin Nur, providing shelter and support in the Bukhara region of Uzbekistan",
                 "phone": "+998 65 224 65 11",
                 "text": "",
+                "notes": ""
+            },{
+                "name": "Rebirth International Intergroup/Central Office",
+                "phone": "(+998)909822430",
+                "text": "",
+                "url":"http://uzbekistan.aawebsite.su",
                 "notes": ""
             }
         ]
@@ -1864,6 +2020,12 @@ const data = [
                 "phone": "246 430 7323",
                 "text": "",
                 "notes": ""
+            },{
+                "name": "A.A. Intergroup Barbados",
+                "phone": "(246) 426-1600",
+                "url":"http://aabarbados.org",
+                "text": "",
+                "notes": ""
             }
         ]
     },
@@ -1881,6 +2043,13 @@ const data = [
             {
                 "name": "Center Against Abuse Hotline",
                 "phone": "441 297 8278",
+                "text": "",
+                "notes": ""
+            },
+            {
+                "name": "Bermuda AA Intergroup Committee",
+                "phone": "(441) 297-0965",
+                "url":"http://www.aa.bm",
                 "text": "",
                 "notes": ""
             }
@@ -1923,6 +2092,13 @@ const data = [
         "firefighterNumber": "911",
         "firefighterNotes": "",
         "helplines": [
+            {
+                "name": "Cayman Islands District Committee-24 Hour Hot Line",
+                "phone": "(345) 926-9044",
+                "url":"http://www.caymanaa.org",
+                "text": "",
+                "notes": ""
+            }
         ]
     },
     {
@@ -1944,6 +2120,11 @@ const data = [
             },{
                 "name": "I Believe You Helpline",
                 "phone": "+53 5 265 2798",
+                "text": "",
+                "notes": ""
+            },{
+                "name": "Oficina De Servicios Generales",
+                "phone": "+011(53)7838-2553",
                 "text": "",
                 "notes": ""
             },{
@@ -2016,6 +2197,11 @@ const data = [
             },{
                 "name": "National District Attorney's Office",
                 "phone": "809 221 6400",
+                "text": "",
+                "notes": ""
+            },{
+                "name": "Oficina De Servicios Generales",
+                "phone": "(809) 275-5842",
                 "text": "",
                 "notes": ""
             }
@@ -2091,6 +2277,11 @@ const data = [
                 "phone": "+509 4730 8333",
                 "text": "",
                 "notes": ""
+            },{
+                "name": "AA Haiti",
+                "phone": "(509) 44758146",
+                "text": "",
+                "notes": ""
             }
              
         ]
@@ -2111,6 +2302,12 @@ const data = [
                 "phone": "+876 929 9038",
                 "text": "",
                 "notes": ""
+            },{
+                "name": "Kingston Jamaica Answering Service",
+                "phone": "(876) 361-0707",
+                "url":"http://aajamaica.org",
+                "text": "",
+                "notes": "Anonymous Alcoholics"
             },{
                 "name": "Ministry of Gender Abuse 24-hour hotline",
                 "phone": "+876 553 0372",
@@ -2170,6 +2367,12 @@ const data = [
                 "name": "Taller Salud Helpline",
                 "phone": "787.876.3440",
                 "text": "",
+                "notes": ""
+            },{
+                "name": "A.A. Oficina Del Area De P.R.",
+                "phone": "(787) 704-1634",
+                "text": "",
+                "url":"http://www.pr-area77.org",
                 "notes": ""
             },{
                 "name": "Proyecto Matri",
@@ -2316,7 +2519,12 @@ const data = [
         "firefighterNumber": "911",
         "firefighterNotes": "",
         "helplines": [
-        	
+        	{
+                "name": "Turks & Caicos AA Intergroup",
+                "phone": "649) 232-1029",
+                "text": "",
+                "notes": "(649) 232-5213"
+            }
         ]
     },
     {
@@ -2384,6 +2592,13 @@ const data = [
                 "notes": ""
             },
             {
+                "name": "General Service Office A.A. Fiji",
+                "phone": "939-2190",
+                "text": "",
+                "url":"https://aafiji.org/",
+                "notes": "Phone:(679) 939-2190"
+            },
+            {
                 "name": "Helpline (Fiji Women's Crisis Center)",
                 "phone": "1560 ",
                 "text": "",
@@ -2413,7 +2628,12 @@ const data = [
         "firefighterNumber": "18",
         "firefighterNotes": "112",
         "helplines": [
-        	
+        	{
+                "name": "AA Answering Services",
+                "phone": "(689)40432163",
+                "text": "",
+                "notes": ""
+            }
         ]
     },
     {
@@ -2956,6 +3176,12 @@ const data = [
                 "phone": "+501 227 2222",
                 "text": "",
                 "notes": "National Sexual Assault Helplines. National Domestic Violence Helplines."
+            },{
+                "name": "Alcoholics Anonymous General Service Office of Belize",
+                "phone": "(501) 600-3796",
+                "url" : "http://www.aabelize.org",
+                "text": "",
+                "notes": ""
             },
             {
                 "name": "Haven House Helpline",
@@ -3057,6 +3283,13 @@ const data = [
                 "notes": "WhatsApp: +502 3034 0703. National Sexual Assault Helplines. National Domestic Violence Helplines"
             },
             {
+                "name": "Oficina De Servicios Generales de A.A. de Guatemala",
+                "phone": "+(502) 2254-6565",
+                "url":"http://www.aaguatemala.org.gt",
+                "text": "",
+                "notes": ""
+            },
+            {
                 "name": "Fundacion Sobre Vivientes Helpline",
                 "phone": "+502 2245 3000",
                 "text": "",
@@ -3093,6 +3326,13 @@ const data = [
                 "phone": "114",
                 "text": "",
                 "notes": ""
+            },
+            {
+                "name": "Oficina de Servicios Generales De A.A.",
+                "phone": "(504)2238-7930",
+                "url":"http://www.aadehonduras.com",
+                "text": "",
+                "notes": ""
             }
         ],
        
@@ -3113,6 +3353,18 @@ const data = [
                 "phone": "2222 4444",
                 "text": "",
                 "notes": "WhatsApp 8352 5121. National Sexual Assault Helplines. National Domestic Violence Helplines"
+            },{
+                "name": "Oficina De Servicios Generales",
+                "phone": "(505)2266-2022",
+                "url":"https://aaosgnicaragua.org/",
+                "text": "",
+                "notes": ""
+            },{
+                "name": "Oficina Central Intergrupal de A.A. de Managua Nicaragua",
+                "phone": "+505 8247 0131",
+                "url":"",
+                "text": "",
+                "notes": ""
             },
             {
                 "name": "No Estoy Sola",
@@ -3145,6 +3397,13 @@ const data = [
                 "phone": "8428 5175",
                 "text": "",
                 "notes": "Or 8428 5315 or 8428 5404 or 8429 3390. National Sexual Assault Helplines. National Domestic Violence Helplines."
+            },
+            {
+                "name": "Oficina De Servicios Generales",
+                "phone": "(507) 225-3585",
+                "url" : "http://www.aapanama.info",
+                "text": "",
+                "notes": ""
             }
         ],
        
@@ -3533,6 +3792,13 @@ const data = [
                 "notes": ""
             },
             {
+                "name": "AA Cairo Intergroup",
+                "phone": "(+20)1096982271",
+                "url":"https://aaegypt.org",
+                "text": "",
+                "notes": ""
+            },
+            {
                 "name": "Gas emergency",
                 "phone": "129",
                 "text": "",
@@ -3726,6 +3992,12 @@ const data = [
                 "notes": ""
             },
             {
+                "name": "AA Intergroup Office Adenta Accra, Ghana",
+                "phone": "0244-431035",
+                "text": "",
+                "notes": ""
+            },
+            {
                 "name": "Domestic Violence and Victims Support Unit (DOVVSU) of the Ghana Police Service Hotline",
                 "phone": "055 100 0900",
                 "text": "",
@@ -3879,6 +4151,13 @@ const data = [
                 "phone": "0800 720 553",
                 "text": "",
                 "notes": "GBV Toll Free Line."
+            },
+            {
+                "name": "Alcoholics Anonymous Kenya Intergroup",
+                "phone": "(+254) 799959294",
+                "text": "",
+                "url" : "http://www.aa-kenya.or.ke",
+                "notes": ""
             }
         ]
     },
@@ -4817,6 +5096,13 @@ const data = [
                 "phone": "0800 200 250",
                 "text": "",
                 "notes": "National Domestic Violence Helplines."
+            },
+            {
+                "name": "Alcoholics Anonymous Uganda",
+                "phone": "(+256) 784 549 797",
+                "url":"https://aa-uganda.org/",
+                "text": "",
+                "notes": "Helpline:(+256) 705 334 446."
             }
         ]
     },
@@ -4903,6 +5189,12 @@ const data = [
                 "notes": "Or 708666."
             },
             {
+                "name": "Harare AA Intergroup",
+                "phone": "(+263) 71212424",
+                "text": "",
+                "notes": ""
+            },
+            {
                 "name": "Emthonjeni Women's Forum",
                 "phone": "+263 242 700095",
                 "text": "multiple",
@@ -4964,6 +5256,12 @@ const data = [
                 "url": "https://krisenchat.de/en/ukraine",
                 "notes": "Ukrainian support line."
             	},
+                {
+                    "name": "Anonyme Alkoholiker (24 Hour Answering Service)",
+                    "phone": "( 49)69-19295",
+                    "url": "",
+                    "notes": ""
+                    },
                 {
                     "name": "Telefonseelsorge",
                     "phone": "0800.1110111",
@@ -5043,12 +5341,18 @@ const data = [
                 "notes": "Open from 3 pm to 11 pm. SOS Help is a helpline in France focused on helping English speakers deal with emergency problems, from emotional breakdowns to feeling homesick or isolated, or just a question about a mobile bill."
             	}
             	,
-        	{
+        	    {
                 "name": "Woman victims of violence",
                 "phone": "3919",
                 "url": "",
                 "notes": "12 different languages"
             	},
+                {
+                    "name": "Services Generaux A.A.",
+                    "phone": "(33) 969-394-020",
+                    "url": "http://www.alcooliques-anonymes.fr",
+                    "notes": "Intergroupe De Paris Answering Service:(+33) 969394020"
+                    },
                 {
                     "name": "The Collectif Féministe Contre le Viol Hotline",
                     "phone": "0800 05 95 95",
@@ -5116,7 +5420,13 @@ const data = [
                                 "phone": "0900 0113",
                                 "url": "",
                                 "notes": ""
-                                }
+                                },
+                                {
+                                    "name": "Algemeen Diensten Bureau A.A. Nederland",
+                                    "phone": "(31)10-243-0175",
+                                    "url": "http://www.aa-nederland.nl",
+                                    "notes": ""
+                                    }
                                 ,
                                 {
                                     "name": "Alcoholics Anonymous",
@@ -5464,6 +5774,12 @@ const data = [
                 "notes": "Also texting"
             	},
                 {
+                    "name": "American Addiction Centers",
+                    "phone": "(313) 217-3201 .",
+                    "url": "https://americanaddictioncenters.org/alcohol-drug-hotline",
+                    "notes": ""
+                    },
+                {
                     "name": "Drug Addiction Hotline",
                     "phone": "866-210-1303",
                     "url": "",
@@ -5498,7 +5814,12 @@ const data = [
                             "phone": "888 805 0122",
                             "notes": "Providing resources and support to victims of crime who may not otherwise receive services."
                             }
-                           
+                            ,
+                            {
+                                "name": "SAMHSA’s National Helpline",
+                                "phone": "1-800-662-HELP (4357)",
+                                "notes": "SAMHSA’s National Helpline is a free, confidential, 24/7, 365-day-a-year treatment referral and information service (in English and Spanish) for individuals and families facing mental and/or substance use disorders."
+                                }   
                        
         ]
     }
@@ -5683,6 +6004,22 @@ const data = [
                 "url": "",
                 "notes": ""
             	}
+            ,{
+                "name": "Bali A A Information",
+                "phone": "(62)361-756652",
+                "url": "http://www.aa-indonesia.org",
+                "notes": ""
+            	},{
+                    "name": "Bali AA Intergroup Helpline",
+                    "phone": "(62) 81337924808",
+                    "url": "http://www.aaBali.org",
+                    "notes": "Phone:(+62) 8113994772"
+                    },{
+                        "name": "Jakarta Intergroup Answering Service",
+                        "phone": "(62)818-134-556",
+                        "url": "http://www.aa-indonesia.org",
+                        "notes": ""
+                        }
             ,
             {
                 "name": "Ministry of Women Empowerment and Child Protection",
@@ -5732,6 +6069,12 @@ const data = [
                 "url": "",
                 "notes": ""
             	},
+                {
+                    "name": "Stiftelsen Anonyme Alkoholikere, Servicekontoret",
+                    "phone": "(472) 246-8965",
+                    "url": "http://www.anonymealkoholikere.no",
+                    "notes": ""
+                },
             	{
                 "name": "Mental Helse Hjelpetelefonen",
                 "phone": "116 123",
@@ -5781,6 +6124,12 @@ const data = [
                 "url": "",
                 "notes": ""
             	},
+                {
+                    "name": "Greek Central Office Of A.A.-Ellada and International Intergroup",
+                    "phone": "00-30-210-522-7920",
+                    "url": "http://www.aa-greece.gr",
+                    "notes": ""
+                    },
                 {
                     "name": "National SOS Helpline",
                     "phone": "15 900",
@@ -5921,7 +6270,12 @@ const data = [
                                 "phone": "1515",
                                 "url": "",
                                 "notes": ""
-                                }
+                                },{
+                                    "name": "A.A. Alcolisti Anonimi Italia",
+                                    "phone": "(39)06-6636629",
+                                    "url": "http://www.alcolistianonimiitalia.it",
+                                    "notes": ""
+                                    }
                                 ,{
                                     "name": "Roadside Assistance: at all hours of the day for motorists in emergency",
                                     "phone": "803.116",
@@ -5992,6 +6346,12 @@ const data = [
                 "url": "",
                 "notes": "Available 24 hours a day, every day. Service for missing children linking up with investigation authorities and judicial bodies. Calls are free of charge."
             	},
+                {
+                    "name": "Associação de Serviços Gerais de Alcoólicos Anónimos de Portugal",
+                    "phone": "(351)21-7162969",
+                    "url": "http://www.aaportugal.org",
+                    "notes": ""
+                    },
             	{
                 "name": "Child Support Line",
                 "phone": "116 111",
@@ -6114,7 +6474,18 @@ const data = [
                                     "phone": "01 554 3811",
                                     "url": "",
                                     "notes": ""
-                                    }
+                                    },{
+                                        "name": "North Cork Area Telephone Service",
+                                        "phone": "(353)87-6657105",
+                                        "url": "",
+                                        "notes": ""
+                                        },
+                                    {
+                                        "name": "General Service Office Of Alcoholics Anonymous",
+                                        "phone": "(00353)1-8420700",
+                                        "url": "http://www.alcoholicsanonymous.ie",
+                                        "notes": "Kerry Telephone Service Phone:(353)87-0522911 and Leinster Telephone Service Phone:(353)01-8527000"
+                                        }
         ]
     },
     {
@@ -6134,6 +6505,12 @@ const data = [
                 "url": "",
                 "notes": ""
                 },{
+                    "name": "National Service Office Of A. A.",
+                    "phone": "(354) 551-2010",
+                    "url": "http://www.aa.is",
+                    "notes": "Reykjavik Intergroup Office Phone:(354) 895-1050 Answering Service:(354) 895-1050"
+                    },
+                    {
                     "name": "Aflio (in Akureyri)",
                     "phone": "461 5959",
                     "url": "",
@@ -6284,7 +6661,12 @@ const data = [
                 "phone": "158",
                 "url": "",
                 "notes": ""
-            	}
+            	},{
+                    "name": "Cyprus AA Intergroup",
+                    "phone": "(+357) 99246361",
+                    "url": "http://www.alcoholics-anonymous.eu",
+                    "notes": ""
+                    }
         ]
     },
     {
@@ -6354,6 +6736,12 @@ const data = [
                 "phone": "020-50 50 50",
                 "url": "",
                 "notes": ""
+            	},
+            	{
+                "name": "A.A. Servicekontor",
+                "phone": "+46 (0)8 642 26 09",
+                "url": "http://www.aa.se",
+                "notes": "Open: Mon - Thur 09.00 - 15.30 121-63 (lunch 12.00 - 13.00)"
             	}
             	,
             	{
@@ -6441,6 +6829,12 @@ const data = [
                 "url": "",
                 "notes": ""
             	},
+                {
+                    "name": "AA Helsinki ",
+                    "phone": "+358 414726761",
+                    "url": "http://aahelsinki.fi",
+                    "notes": ""
+                    },
             	{
                 "name": "Rape Crisis Center Tukinainen Helpline",
                 "phone": "0800 97 899",
@@ -6490,6 +6884,12 @@ const data = [
                 "url": "",
                 "notes": ""
             	},
+                {
+                    "name": "A. A. Hovedservicekontor",
+                    "phone": "(457) 010-1224",
+                    "url": "http://www.anonyme-alkoholikere.dk",
+                    "notes": ""
+                },
             	{
                 "name": "Victim Support Malta",
                 "phone": "+356 21 22 83 33",
@@ -6534,6 +6934,12 @@ const data = [
                 "notes": ""
             	},
                 {
+                "name": "AA GSO Malta and Gozo",
+                "phone": "(356) 795-05025",
+                "url": "https://aamalta.org",
+                "notes": ""
+            	},
+                {
                     "name": "Victim Support Malta",
                     "phone": "+356 21 22 83 33",
                     "url": "",
@@ -6545,6 +6951,55 @@ const data = [
                         "url": "",
                         "notes": ""
                         }
+        ]
+    },
+    {
+        "country": "Slovakia",
+		"phone_pref": "+421",
+        "flag": "🇸🇰",
+        "ambulanceNumber": "155",
+        "ambulanceNotes": "",
+        "policeNumber": "158",
+        "policeNotes": "Municipal police – 159.",
+        "firefighterNumber": "150",
+        "firefighterNotes": "",
+        "helplines": [
+        	{
+                "name": "24 hour Helpline for female victims of violence",
+                "phone": "0800 212 212",
+                "url": "",
+                "notes": ""
+            },
+            {
+                "name": "24 Hour Crisis Helpline",
+                "phone": "+421 0903 519 550",
+                "url": "",
+                "notes": ""
+            },
+            {
+                "name": "The Crisis Helpline",
+                "phone": " 0800 500 333",
+                "url": "",
+                "notes": ""
+            },
+            {
+                "name": "Victims of Violence Helpline",
+                "phone": "0944 254 405",
+                "url": "",
+                "notes": ""
+            },
+            {
+                "name": "Victims Support Helpline",
+                "phone": "0850 111 321",
+                "url": "",
+                "notes": ""
+            },
+            {
+                "name": "Zdruzenie Pre Sluzby Anonymnym Alkomolikom",
+                "phone": "(421)37-6516235",
+                "url": "http://www.alkoholici-anonymni.sk",
+                "notes": ""
+            }
         ]
     },
     {
@@ -6613,12 +7068,29 @@ const data = [
         "firefighterNumber": "118",
         "firefighterNotes": "",
         "helplines": [
-        	{
+        	    {
                 "name": "Toxin Information",
                 "phone": "145",
                 "url": "",
                 "notes": ""
             	},
+                {
+                    "name": "A.A. Suisse Romande Et Italienne",
+                    "phone": "(41)22-344-33-22",
+                    "url": "http://www.aasri.org",
+                    "notes": ""
+                    },
+                    {
+                        "name": "Anonyme Alkoholiker Schweiz",
+                        "phone": "(41)848-848-885",
+                        "url": "http://www.anonyme-alkoholiker.ch",
+                        "notes": "A.A. Zurich Intergroup Phone:(+41) 32 511 69 67"
+                        },{
+                            "name": "24 Hour Answering Service",
+                            "phone": "(41)0-76-4019391",
+                            "url": "http://www.aazurich.org",
+                            "notes": ""
+                            },
             	{
                 "name": "Anonymous Crisis Line",
                 "phone": "143",
@@ -6763,7 +7235,13 @@ const data = [
                                 "phone": "+386 40 772 276",
                                 "url": "",
                                 "notes": ""
-                                }
+                                },
+                                {
+                                    "name": "Drustrvo AA Slovenia",
+                                    "phone": "(386)1-4338225",
+                                    "url": "http://www.aa-slovenia.si",
+                                    "notes": ""
+                                    }
         ]
     },
     {
@@ -7035,6 +7513,12 @@ const data = [
                 "notes": ""
                 }
             ,{
+                "name": "Asociatia Biroul De Servicii Ge Din Romania",
+                "phone": "(40)770-225522",
+                "url": "http://www.alcooliciianonimi.ro",
+                "notes": ""
+                }
+            ,{
                 "name": "Toll-free 24 hour hotline for domestic and sexual violence support",
                 "phone": "0800 500 333",
                 "url": "",
@@ -7064,6 +7548,11 @@ const data = [
                     "url": "",
                     "notes": ""
                     },{
+                        "name": "Fundacja Sluzby Krajowej A.A. W Polsce",
+                        "phone": "(48) 22-828-04-94",
+                        "url": "http://www.aa.org.pl",
+                        "notes": ""
+                        },{
                         "name": "Crisis Intervention Point",
                         "phone": "22 837 55 59",
                         "url": "",
@@ -7190,6 +7679,12 @@ const data = [
                 "phone": "+359 (0) 52/609 677",
                 "url": "",
                 "notes": ""
+            	},
+            	{
+                "name": "A.A. Bulgaria",
+                "phone": "(359) 887-399-887",
+                "url": "http://www.aa-bg.info",
+                "notes": ""
             	}
         ]
     },
@@ -7269,6 +7764,11 @@ const data = [
                         "url": "",
                         "notes": ""
                         },{
+                            "name": "Ukrainian Service Centre of A.A.",
+                            "phone": "(380)99-9289378",
+                            "url": "http://www.aa.org.ua",
+                            "notes": ""
+                            },{
                             "name": "Government Hotline for victims of domestic and gender based violence",
                             "phone": "1547",
                             "url": "",
@@ -7297,7 +7797,12 @@ const data = [
                 "phone": "(495) 625 3101",
                 "url": "",
                 "notes": ""
-            	},
+            	},{
+                    "name": "Central Service Bureau of A.A. in Russia (СSB)",
+                    "phone": "7(985)448-29-80",
+                    "url": "http://www.rsoaa.ru",
+                    "notes": ""
+                    },
             	{
                 "name": "Drugs helpline",
                 "phone": "(495) 421 5555",
@@ -7376,7 +7881,12 @@ const data = [
                 "phone": "290-44-44",
                 "url": "",
                 "notes": ""
-            	},
+            	},{
+                    "name": "Belarusian Alcoholics Anonymous Service Centre",
+                    "phone": "(375)17-3958350",
+                    "url": "http://www.aabelarus.org",
+                    "notes": ""
+                    },
             	{
                 "name": "Anonymous helpline 2",
                 "phone": "315-00-00",
@@ -7438,7 +7948,13 @@ const data = [
                 "phone": "317 200",
                 "url": "",
                 "notes": ""
-            	}
+            	},
+                {
+                    "name": "A.A. Resources In The Faroe Islands (G.S.O.)",
+                    "phone": "",
+                    "url": "https://www.anonymir-alkoholikarar.fo/",
+                    "notes": ""
+                    }
         ]
     },
     {
@@ -7500,12 +8016,18 @@ const data = [
         "firefighterNumber": "112",
         "firefighterNotes": "105",
         "helplines": [
-        	{
+        	    {
                 "name": "Water emergency",
                 "phone": "1817",
                 "url": "",
                 "notes": ""
             	},
+                {
+                    "name": "Felepulok Egeszsegugyi Anonim Egyesulete",
+                    "phone": "(361) 251-0051",
+                    "url": "http://www.anonimalkoholistak.hu",
+                    "notes": ""
+                },
             	{
                 "name": "LESZ",
                 "phone": "116–123",
@@ -7616,7 +8138,12 @@ const data = [
                 "phone": "8800) 00000",
                 "url": "",
                 "notes": ""
-            	},
+            	},{
+                    "name": "Lithuania A.A. Service Office",
+                    "phone": "(370) 685-05191",
+                    "url": "http://www.aalietuvoje.org",
+                    "notes": ""
+                    },
             	{
                 "name": "Technical roadside assistance 2",
                 "phone": "(8-22) 262-252",
@@ -7672,7 +8199,12 @@ const data = [
                 "phone": "115",
                 "url": "",
                 "notes": ""
-            	},
+            	},{
+                    "name": "Biedriba Anonimo Alkoholiku Sadraudziba",
+                    "phone": "(371)2-733-3523",
+                    "url": "http://www.aa.org.lv",
+                    "notes": ""
+                    },
                 {
                     "name": "Skalbes 24 Hour Crisis Helpline",
                     "phone": "116 123",
@@ -7735,6 +8267,12 @@ const data = [
                 "phone": "+372 55 949 496",
                 "url": "",
                 "notes": "58 849 494"
+            	},
+            	{
+                "name": "Eesti AA Teenindusburoo (General Service Office A.A. of Estonia)",
+                "phone": "(372) 529-9955",
+                "url": "http://www.aaestonia.com",
+                "notes": "Alcoholics Anonymous is a fellowship of men and women who share experiences, strength, and hope to overcome their common problem and help others in need recover from alcoholism."
             	}
         ]
     },
@@ -7803,6 +8341,12 @@ const data = [
                 "phone": "2506 06 01",
                 "url": "",
                 "notes": "Or 2507 36 14"
+            	},
+            	{
+                "name": "Fundacion A.A. Del Uruguay",
+                "phone": "(05) 982-400-3501",
+                "url": "http://www.alcoholicosanonimos.org.uy",
+                "notes": ""
             	}
         ]
     },
@@ -7828,6 +8372,12 @@ const data = [
                 "phone": "021 45 20 60",
                 "url": "",
                 "notes": ""
+            	},
+            	{
+                "name": "Oficina De Servicios Generales de Alcoholicos Anonimos del Paraguay",
+                "phone": "(595) 983-847093",
+                "url": "http://www.alcoholicosanonimos.org.py",
+                "notes": ""
             	}
         ]
     },
@@ -7847,7 +8397,12 @@ const data = [
                 "phone": "100",
                 "url": "",
                 "notes": ""
-            	},
+            	},{
+                    "name": "Junta De Servicios Generales de Alcoholicos Anonimos del Peru",
+                    "phone": "(511) 447-8666",
+                    "url": "https://aajunta.org.pe/",
+                    "notes": ""
+                    },
                 {
                     "name": "The Urgent Care Service",
                     "phone": "41 97 260",
@@ -7978,6 +8533,12 @@ const data = [
                     "url": "",
                     "notes": "Or 911"
                     },
+                    {
+                        "name": "Oficina De Servicios Generales",
+                        "phone": "+593 98 423 4170",
+                        "url": "http://www.alcoholicosanonimos.org.ec",
+                        "notes": ""
+                        },
                     {
                         "name": "CEPAM (Centro Ecuatoriano Para la Promocion y Accion De La Mujer) GUAYAQUIL Hotline",
                         "phone": "0991 113 526",
@@ -8242,6 +8803,50 @@ const data = [
                 "url": "",
                 "notes": "National Sexual Assault Helpline. National Domestic Violence Helpline."
             	}
+        ]
+    },{
+        "country": "Czech Republic",
+		"phone_pref": "+420",
+        "flag": "🇨🇿",
+        "ambulanceNumber": "112	",
+        "ambulanceNotes": "or 155.",
+        "policeNumber": "112",
+        "policeNotes": "or 158. Municipal police – 156.",
+        "firefighterNumber": "112",
+        "firefighterNotes": "or 150.",
+        "helplines": [
+        	    {
+                "name": "Victim Support Crisis Line",
+                "phone": "116 006",
+                "url": "",
+                "notes": ""
+            	},
+                {
+                    "name": "Sdružení pro služby Anonymním alkoholikum v CR",
+                    "phone": "(420)773-138-303",
+                    "url": "http://www.anonymnialkoholici.cz",
+                    "notes": ""
+                    },{
+                        "name": "Prague Regional Intergroup Office of Anonymni Alkoholici (A.A.)",
+                        "phone": "(+420) 224818247",
+                        "url": "http://www.sweb.cz/aacesko",
+                        "notes": ""
+                        },{
+                        "name": "Prague Helpline",
+                        "phone": "222 580 697",
+                        "url": "",
+                        "notes": ""
+                        },{
+                        "name": "Rosa Centre",
+                        "phone": "800 60 50 80",
+                        "url": "",
+                        "notes": ""
+                        },{
+                            "name": "RIAPS Crisis Center",
+                            "phone": "222 586 768",
+                            "url": "",
+                            "notes": "The RIAPS Crisis Center provides crisis intervention and psychological support."
+                            }
         ]
     },{
         "country": "Azerbaijan",
