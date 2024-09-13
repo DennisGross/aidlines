@@ -6104,6 +6104,36 @@ const data = [
                 "phone": "+47 22 42 42 02",
                 "url": "https://ssmm.no/",
                 "notes": ""
+            	},
+            	{
+                "name": "Skeiv Ungdom LGBTQ: Ungdomselefonen Helpline",
+                "phone": "400 00 777",
+                "url": "https://ungdomstelefonen.no/",
+                "notes": ""
+            	},
+            	{
+                "name": "Kors Pa Halsen",
+                "phone": "800 333 21",
+                "url": "https://www.korspahalsen.no/",
+                "notes": ""
+            	},
+            	{
+                "name": "Alarmtelefonen for barn og unge",
+                "phone": "417 16 111",
+                "url": "http://www.116111.no/",
+                "notes": "The emergency telephone for children and young people."
+            	},
+            	{
+                "name": "Alltidhjelp.no",
+                "phone": "02356",
+                "url": "https://alltidhjelp.no/",
+                "notes": "Always Help is a help service for anyone who wants to talk or write about life's challenges. We can also provide information about help and activity offers."
+            	},
+            	{
+                "name": "Mannstelefonen",
+                "phone": "22340960",
+                "url": "https://reform.no/tjenester/",
+                "notes": "Reform offers various low-threshold services for men and boys in difficult life situations, e-learning courses for professionals and resources that can be used if needed. You do not need a referral to make use of our low-threshold offers."
             	}
         ]
     },
@@ -6738,6 +6768,12 @@ const data = [
                 "notes": ""
             	},
             	{
+                "name": "Mind Sjalvmorslinjen",
+                "phone": "90101",
+                "url": "http://www.mind.se",
+                "notes": "We are here to listen to you. You are anonymous."
+            	},
+            	{
                 "name": "A.A. Servicekontor",
                 "phone": "+46 (0)8 642 26 09",
                 "url": "http://www.aa.se",
@@ -6796,6 +6832,12 @@ const data = [
                 "name": "ADA Women's Shelter",
                 "phone": "031 13 11 66",
                 "url": "",
+                "notes": ""
+            	},
+            	{
+                "name": "Spes - for survivors of suicide loss",
+                "phone": "020-18 18 00",
+                "url": "https://spes.se/",
                 "notes": ""
             	}
         ]
